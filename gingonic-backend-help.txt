@@ -1,0 +1,7 @@
+1.go mod init gingonic //gingonic : module name,It is same as <go.mod> files's imported module at top
+2.go get -u github.com/gin-gonic/gin go.mongodb.org/mongo-driver/mongo github.com/joho/godotenv github.com/go-playground/validator/v10
+3.sample url:https://dev.to/hackmamba/build-a-rest-api-with-golang-and-mongodb-gin-gonic-version-269m
+
+Temp:
+1.change the gin-mongo-api -> gingonic
+2.delete env.go and modifier configs/setup.go

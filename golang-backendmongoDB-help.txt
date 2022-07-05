@@ -1,0 +1,15 @@
+---Important---
+
+1.Activate the MongoDB
+
+2.And run the server(main.go)
+
+3.Testing(With POSTMAN)
+Choose <Body> at Cookie and Add like this...
+{
+	"ID":1,
+	"Task":"Maien",
+	"Status":true
+}
+
+At the request url: http://localhost:8080/api/task
